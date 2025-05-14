@@ -1,0 +1,12 @@
+organization: Drieam
+extends:
+  - recommended
+apis:
+  eduframe@v1:
+    root: https://developer.eduframe.nl/eduframe.yaml
+    decorators:
+      info-override:
+        description: null
+      filter-out:
+        property: deprecated
+        value: true

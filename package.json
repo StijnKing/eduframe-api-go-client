@@ -1,0 +1,17 @@
+{
+  "name": "eduframe-api-go-client",
+  "version": "latest",
+  "main": "index.js",
+  "scripts": {
+    "openapi:bundle": "pnpm redocly bundle eduframe@v1 -o eduframe_v1.json",
+    "client:generate": "openapi-generator-cli generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.0",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.20.0",
+    "@redocly/cli": "^1.34.3"
+  }
+}

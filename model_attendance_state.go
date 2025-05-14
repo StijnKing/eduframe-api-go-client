@@ -20,11 +20,11 @@ type AttendanceState string
 
 // List of AttendanceState
 const (
-	ABSENT AttendanceState = "absent"
-	ABSENT_WITH_LEAVE AttendanceState = "absent_with_leave"
-	ATTENDED AttendanceState = "attended"
-	BLANCO AttendanceState = "blanco"
-	LATE AttendanceState = "late"
+	ATTENDANCESTATE_ABSENT AttendanceState = "absent"
+	ATTENDANCESTATE_ABSENT_WITH_LEAVE AttendanceState = "absent_with_leave"
+	ATTENDANCESTATE_ATTENDED AttendanceState = "attended"
+	ATTENDANCESTATE_BLANCO AttendanceState = "blanco"
+	ATTENDANCESTATE_LATE AttendanceState = "late"
 )
 
 // All allowed values of AttendanceState enum

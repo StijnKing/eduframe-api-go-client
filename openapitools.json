@@ -13,7 +13,7 @@
           "modelTests": false
         },
         "additionalProperties": {
-            "enumClassPrefix": "Eduframe",
+            "enumClassPrefix": true,
             "hideGenerationTimestamp": true,
             "packageName": "eduframe",
             "packageVersion": "0.1.0",

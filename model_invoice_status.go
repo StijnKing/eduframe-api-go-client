@@ -20,10 +20,10 @@ type InvoiceStatus string
 
 // List of InvoiceStatus
 const (
-	CONCEPT InvoiceStatus = "concept"
-	EXPIRED InvoiceStatus = "expired"
-	OPEN InvoiceStatus = "open"
-	PAID InvoiceStatus = "paid"
+	INVOICESTATUS_CONCEPT InvoiceStatus = "concept"
+	INVOICESTATUS_EXPIRED InvoiceStatus = "expired"
+	INVOICESTATUS_OPEN InvoiceStatus = "open"
+	INVOICESTATUS_PAID InvoiceStatus = "paid"
 )
 
 // All allowed values of InvoiceStatus enum

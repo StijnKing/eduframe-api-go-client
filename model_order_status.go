@@ -20,10 +20,10 @@ type OrderStatus string
 
 // List of OrderStatus
 const (
-	ACTIVE OrderStatus = "active"
-	CANCELED OrderStatus = "canceled"
-	DENIED OrderStatus = "denied"
-	REQUESTED OrderStatus = "requested"
+	ORDERSTATUS_ACTIVE OrderStatus = "active"
+	ORDERSTATUS_CANCELED OrderStatus = "canceled"
+	ORDERSTATUS_DENIED OrderStatus = "denied"
+	ORDERSTATUS_REQUESTED OrderStatus = "requested"
 )
 
 // All allowed values of OrderStatus enum

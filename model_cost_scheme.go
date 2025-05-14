@@ -20,10 +20,10 @@ type CostScheme string
 
 // List of CostScheme
 const (
-	FREE CostScheme = "free"
-	ORDER CostScheme = "order"
-	STUDENT CostScheme = "student"
-	TBD CostScheme = "tbd"
+	COSTSCHEME_FREE CostScheme = "free"
+	COSTSCHEME_ORDER CostScheme = "order"
+	COSTSCHEME_STUDENT CostScheme = "student"
+	COSTSCHEME_TBD CostScheme = "tbd"
 )
 
 // All allowed values of CostScheme enum

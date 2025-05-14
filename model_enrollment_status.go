@@ -20,10 +20,10 @@ type EnrollmentStatus string
 
 // List of EnrollmentStatus
 const (
-	ACTIVE EnrollmentStatus = "active"
-	CANCELED EnrollmentStatus = "canceled"
-	COMPLETED EnrollmentStatus = "completed"
-	CONFIRMED EnrollmentStatus = "confirmed"
+	ENROLLMENTSTATUS_ACTIVE EnrollmentStatus = "active"
+	ENROLLMENTSTATUS_CANCELED EnrollmentStatus = "canceled"
+	ENROLLMENTSTATUS_COMPLETED EnrollmentStatus = "completed"
+	ENROLLMENTSTATUS_CONFIRMED EnrollmentStatus = "confirmed"
 )
 
 // All allowed values of EnrollmentStatus enum

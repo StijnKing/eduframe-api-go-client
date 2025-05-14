@@ -20,8 +20,8 @@ type ProductableType string
 
 // List of ProductableType
 const (
-	COURSE ProductableType = "Course"
-	PROGRAMPROGRAM ProductableType = "Program::Program"
+	PRODUCTABLETYPE_COURSE ProductableType = "Course"
+	PRODUCTABLETYPE_PROGRAMPROGRAM ProductableType = "Program::Program"
 )
 
 // All allowed values of ProductableType enum

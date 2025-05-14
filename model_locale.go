@@ -20,13 +20,13 @@ type Locale string
 
 // List of Locale
 const (
-	DE Locale = "de"
-	EN Locale = "en"
-	EN_GB Locale = "en-GB"
-	EN_US Locale = "en-US"
-	ES Locale = "es"
-	IS Locale = "is"
-	NL Locale = "nl"
+	LOCALE_DE Locale = "de"
+	LOCALE_EN Locale = "en"
+	LOCALE_EN_GB Locale = "en-GB"
+	LOCALE_EN_US Locale = "en-US"
+	LOCALE_ES Locale = "es"
+	LOCALE_IS Locale = "is"
+	LOCALE_NL Locale = "nl"
 )
 
 // All allowed values of Locale enum

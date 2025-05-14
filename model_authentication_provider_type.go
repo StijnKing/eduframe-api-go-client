@@ -20,10 +20,10 @@ type AuthenticationProviderType string
 
 // List of AuthenticationProviderType
 const (
-	AZURE_ACTIVE_DIRECTORY AuthenticationProviderType = "azure_active_directory"
-	EDUFRAME AuthenticationProviderType = "eduframe"
-	OPENID_CONNECT AuthenticationProviderType = "openid_connect"
-	SURF_CONEXT AuthenticationProviderType = "surf_conext"
+	AUTHENTICATIONPROVIDERTYPE_AZURE_ACTIVE_DIRECTORY AuthenticationProviderType = "azure_active_directory"
+	AUTHENTICATIONPROVIDERTYPE_EDUFRAME AuthenticationProviderType = "eduframe"
+	AUTHENTICATIONPROVIDERTYPE_OPENID_CONNECT AuthenticationProviderType = "openid_connect"
+	AUTHENTICATIONPROVIDERTYPE_SURF_CONEXT AuthenticationProviderType = "surf_conext"
 )
 
 // All allowed values of AuthenticationProviderType enum

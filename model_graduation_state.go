@@ -20,9 +20,9 @@ type GraduationState string
 
 // List of GraduationState
 const (
-	AWAITING_JUDGEMENT GraduationState = "awaiting_judgement"
-	FAILED GraduationState = "failed"
-	PASSED GraduationState = "passed"
+	GRADUATIONSTATE_AWAITING_JUDGEMENT GraduationState = "awaiting_judgement"
+	GRADUATIONSTATE_FAILED GraduationState = "failed"
+	GRADUATIONSTATE_PASSED GraduationState = "passed"
 )
 
 // All allowed values of GraduationState enum

@@ -20,8 +20,8 @@ type AccountType string
 
 // List of AccountType
 const (
-	BUSINESS AccountType = "business"
-	PERSONAL AccountType = "personal"
+	ACCOUNTTYPE_BUSINESS AccountType = "business"
+	ACCOUNTTYPE_PERSONAL AccountType = "personal"
 )
 
 // All allowed values of AccountType enum

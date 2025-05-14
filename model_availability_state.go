@@ -20,8 +20,8 @@ type AvailabilityState string
 
 // List of AvailabilityState
 const (
-	OPEN AvailabilityState = "open"
-	CLOSED AvailabilityState = "closed"
+	AVAILABILITYSTATE_OPEN AvailabilityState = "open"
+	AVAILABILITYSTATE_CLOSED AvailabilityState = "closed"
 )
 
 // All allowed values of AvailabilityState enum

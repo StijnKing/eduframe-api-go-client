@@ -20,16 +20,16 @@ type SignupQuestionFieldType string
 
 // List of SignupQuestionFieldType
 const (
-	BOOLEAN SignupQuestionFieldType = "boolean"
-	DATEPICKER SignupQuestionFieldType = "datepicker"
-	DECIMAL SignupQuestionFieldType = "decimal"
-	PHONE SignupQuestionFieldType = "phone"
-	SELECT SignupQuestionFieldType = "select"
-	MULTISELECT SignupQuestionFieldType = "multiselect"
-	SSN SignupQuestionFieldType = "ssn"
-	STRING SignupQuestionFieldType = "string"
-	TEXT SignupQuestionFieldType = "text"
-	VAT_NUMBER SignupQuestionFieldType = "vat_number"
+	SIGNUPQUESTIONFIELDTYPE_BOOLEAN SignupQuestionFieldType = "boolean"
+	SIGNUPQUESTIONFIELDTYPE_DATEPICKER SignupQuestionFieldType = "datepicker"
+	SIGNUPQUESTIONFIELDTYPE_DECIMAL SignupQuestionFieldType = "decimal"
+	SIGNUPQUESTIONFIELDTYPE_PHONE SignupQuestionFieldType = "phone"
+	SIGNUPQUESTIONFIELDTYPE_SELECT SignupQuestionFieldType = "select"
+	SIGNUPQUESTIONFIELDTYPE_MULTISELECT SignupQuestionFieldType = "multiselect"
+	SIGNUPQUESTIONFIELDTYPE_SSN SignupQuestionFieldType = "ssn"
+	SIGNUPQUESTIONFIELDTYPE_STRING SignupQuestionFieldType = "string"
+	SIGNUPQUESTIONFIELDTYPE_TEXT SignupQuestionFieldType = "text"
+	SIGNUPQUESTIONFIELDTYPE_VAT_NUMBER SignupQuestionFieldType = "vat_number"
 )
 
 // All allowed values of SignupQuestionFieldType enum

@@ -20,10 +20,10 @@ type Currency string
 
 // List of Currency
 const (
-	EUR Currency = "EUR"
-	GBP Currency = "GBP"
-	ISK Currency = "ISK"
-	USD Currency = "USD"
+	CURRENCY_EUR Currency = "EUR"
+	CURRENCY_GBP Currency = "GBP"
+	CURRENCY_ISK Currency = "ISK"
+	CURRENCY_USD Currency = "USD"
 )
 
 // All allowed values of Currency enum

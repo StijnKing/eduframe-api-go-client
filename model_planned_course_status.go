@@ -20,10 +20,10 @@ type PlannedCourseStatus string
 
 // List of PlannedCourseStatus
 const (
-	PLANNED PlannedCourseStatus = "planned"
-	ACTIVE PlannedCourseStatus = "active"
-	COMPLETED PlannedCourseStatus = "completed"
-	CANCELED PlannedCourseStatus = "canceled"
+	PLANNEDCOURSESTATUS_PLANNED PlannedCourseStatus = "planned"
+	PLANNEDCOURSESTATUS_ACTIVE PlannedCourseStatus = "active"
+	PLANNEDCOURSESTATUS_COMPLETED PlannedCourseStatus = "completed"
+	PLANNEDCOURSESTATUS_CANCELED PlannedCourseStatus = "canceled"
 )
 
 // All allowed values of PlannedCourseStatus enum

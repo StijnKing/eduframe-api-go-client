@@ -20,8 +20,8 @@ type VariantableType string
 
 // List of VariantableType
 const (
-	PLANNED_COURSE VariantableType = "PlannedCourse"
-	PROGRAMEDITION VariantableType = "Program::Edition"
+	VARIANTABLETYPE_PLANNED_COURSE VariantableType = "PlannedCourse"
+	VARIANTABLETYPE_PROGRAMEDITION VariantableType = "Program::Edition"
 )
 
 // All allowed values of VariantableType enum

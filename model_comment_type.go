@@ -20,14 +20,14 @@ type CommentType string
 
 // List of CommentType
 const (
-	ACCOUNT CommentType = "Account"
-	INVOICE CommentType = "Invoice"
-	LEAD CommentType = "Lead"
-	ORDER CommentType = "Order"
-	PLANNED_COURSE CommentType = "PlannedCourse"
-	PROGRAMEDITIONSEDITION CommentType = "Program::Editions::Edition"
-	TASK CommentType = "Task"
-	USER CommentType = "User"
+	COMMENTTYPE_ACCOUNT CommentType = "Account"
+	COMMENTTYPE_INVOICE CommentType = "Invoice"
+	COMMENTTYPE_LEAD CommentType = "Lead"
+	COMMENTTYPE_ORDER CommentType = "Order"
+	COMMENTTYPE_PLANNED_COURSE CommentType = "PlannedCourse"
+	COMMENTTYPE_PROGRAMEDITIONSEDITION CommentType = "Program::Editions::Edition"
+	COMMENTTYPE_TASK CommentType = "Task"
+	COMMENTTYPE_USER CommentType = "User"
 )
 
 // All allowed values of CommentType enum
